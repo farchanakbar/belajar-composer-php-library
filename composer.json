@@ -1,0 +1,19 @@
+{
+    "name": "farchanakbar/belajar-php-composer-library",
+    "description": "Library Composer",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Farchanakbar\\Belajar\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Farchan Akbar",
+            "email": "farchanakbar80@gmail.com"
+        }
+    ],
+    "require": {
+        "php" : ">=8.0"
+    }
+}
